@@ -1,0 +1,29 @@
+.navbar-background{
+    background-color: #2857A5;
+}
+.nav.navbar-nav.navbar-right li a {
+    color: white;
+}
+.img{
+	    margin-top: -13px;
+}
+.bg-hover a:hover {
+        text-decoration: none;
+        background-color: #163F8B !important;
+        color:#EDEFF5;
+  }
+  .bg-active{
+ background-color: #163F8B !important;
+ }
+ .h1{
+ font-weight:500;
+ }
+ .top_space{
+ margin-top:40px;
+ }
+ .button-hover a:hover {
+        text-decoration: none;
+        background-color:transparent !important;
+        color:#EDEFF5;
+  }
+ 

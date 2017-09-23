@@ -1,0 +1,37 @@
+Database  queries :-
+
+Drop the table (if any table exists by its name):
+drop table employee_details;
+
+Create a new table named employee_details:
+create table employee_details(name varchar(100), designation varchar(100), manager varchar(100));
+
+Insert the values in table employee_details:
+
+insert into employee_details values('Anchal','CEO','');
+insert into employee_details values('Anika','COO','Anchal');
+insert into employee_details values('Ashlesha','VP Sales','Anchal');
+insert into employee_details values('Birju','VP Marketing','Anchal');
+insert into employee_details values('Devak','Head (HR)','Anchal');
+insert into employee_details values('Phani','Head (Finance)','Anchal');
+insert into employee_details values('Hardik','Manager Sales','Ashlesha');
+insert into employee_details values('Jaganmay','Manager Marketing','Birju');
+insert into employee_details values('Lakhan','Recruitment Manger','Devak');
+insert into employee_details values('Naamdev','LD Manager','Devak');
+insert into employee_details values('Pradosh','Facilities','Devak');
+insert into employee_details values('Sachit','CTO','Anchal');
+insert into employee_details values('Udit','Accounts Manager','Anika');
+insert into employee_details values('Yatiyasa','Business Analyst','Anika');
+insert into employee_details values('Zena','Scrum Master','Anika');
+insert into employee_details values('Aahna','Head (Quality)','Anika');
+insert into employee_details values('Yashraj','Quality Manager','Aahna');
+insert into employee_details values('Veena','Tester','Yashraj');
+insert into employee_details values('Torsha','Mobile Tester','Yashraj');
+insert into employee_details values('Ruchita','Tester','Yashraj');
+insert into employee_details values('Oindrila','Mobile Tester','Yashraj');
+insert into employee_details values('Madhulika','Head (Development)','Anika');
+insert into employee_details values('Kimaya','Developer','Madhulika');
+insert into employee_details values('Indu','Developer','Madhulika');
+insert into employee_details values('Gayatri','Developer','Madhulika');
+insert into employee_details values('Ekaa','Solution Architect','Sachit');
+insert into employee_details values('Chitral','Solution Architect','Sachit');
