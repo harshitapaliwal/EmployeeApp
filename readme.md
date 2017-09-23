@@ -1,18 +1,16 @@
-*****************************************************Steps to Run the App*********************************************************************************
+## Steps to Run the App
 
-Tools used: Oracle 11g, Eclipse JEE, Wildfly Server.
+## Tools used
+Oracle 11g, Eclipse JEE, Wildfly Server.
 
-				How To deploy
+# How To deploy
 
-
-Prerequisites.
--------------
+## Prerequisites
 1. This is Java web application and Java Web application project is to be deployed on web server.
 2. Install latest Eclipse JEE, Java, Oracle 11g and Wildfly Server in the operating system.
 
 
-To install, build and run, import the project
---------------------------------------------
+## To install, build and run, import the project
 1. Install latest Eclipse JEE version, Java version, Oracle 11g version, Wildfly Server version.
 2. Download the source code,unzip it and import the project.
 3. Run the SQL statements given by database file.txt on your Oracle 11g.
@@ -25,13 +23,13 @@ To install, build and run, import the project
 
 For Oracle JDBC Connection, Please override properties entries in dbUtil.java as with your Oracle database connection as follows.
 
-driver=oracle.jdbc.driver.OracleDriver
-connection.url=jdbc:oracle:thin:@DESKTOP-BM1A64V:1521:XE	( NOTE : @DESKTOP-BM1A64V in my hostname and XE is my database name. Change it to your Oracle database name )
-username=system									( NOTE : system is my Oracle user name. Change it to your oracle user name )
-password=system									( NOTE : system is my Oracle password. Change it to your oracle password )
+`driver=oracle.jdbc.driver.OracleDriverconnection.url=jdbc:oracle:thin:@DESKTOP-BM1A64V:1521:XE`
+(NOTE : @DESKTOP-BM1A64V in my hostname and XE is my database name. Change it to your Oracle database name )
 
+`username=system`
+( NOTE : system is my Oracle user name. Change it to your oracle user name )
 
-
-****************************************************Steps Completed****************************************************************************************
+`password=system`
+( NOTE : system is my Oracle password. Change it to your oracle password )
 
 
